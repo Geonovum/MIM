@@ -1,7 +1,7 @@
 MIM
 ===
 
-Release versie 1.1
+Release versie 1.1.1
 
 Metamodel informatiemodellering (MIM)
 
