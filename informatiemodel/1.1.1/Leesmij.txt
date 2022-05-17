@@ -10,6 +10,6 @@ Het MDG bestand wordt geladen via de 'resources' tab en daarin de resource 'MDG 
 
 De toolbox is beschikbaar onder de naam 'MIM' via het toolbox menu.
 
-Een uitgebreidere handleiding voor de installatie en gebruik van de MIM toolbox volgt.
+Een uitgebreidere handleiding voor de installatie en gebruik van de MIM toolbox is te vinden op: https://github.com/Geonovum/MIM-Werkomgeving/blob/master/UML%20profieltooling/werkversie1.1.1/README.md
 
 Reacties op de toolbox kunnen via de reguliere MIM github worden gemeld: https://github.com/Geonovum/MIM-Werkomgeving/issues
