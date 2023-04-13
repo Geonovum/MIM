@@ -1,0 +1,14 @@
+MDG_MIM_Toolbox_v1.1.1_build05.xml
+
+2023-04-13
+Release notes.
+
+De volgende items zijn aangepast.
+
+1) Bugfix: De toekennning van <<Relatierol>> en het synchroniseren en invullen van de tagged values werkte niet goed in build04. De oorzaak daarvan lag bij een fout in EA. Het is opgelost met een workaround door in het MIM profiel de <<Relatierol>> als extensie van de UML-metaklasse Property op te nemen. In Build04 was het een extensie van de metaklasse AssociationEnd.
+
+Toekennen van <<Relatierol>> gaat nu goed, zowel via de toolbox als via het properties menu. Tagged values worden direct toegekend en zijn in te vullen.
+
+
+
+
