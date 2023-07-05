@@ -17,22 +17,39 @@
             <mim:naam>relatiesoort</mim:naam>
             <mim:alias>alias</mim:alias>
             <mim:definitie>definitie</mim:definitie>
-            <mim:unidirectioneel>true</mim:unidirectioneel>
+            <mim:herkomstDefinitie>herkomst definitie</mim:herkomstDefinitie>
+            <mim:datumOpname>2023-04-04</mim:datumOpname>
             <mim:doel>
                 <mim-ref:ObjecttypeRef xlink:href="#id1"/>
             </mim:doel>
             <mim:relatierollen>
+                <mim:Bron>
+                    <mim:naam>naam,</mim:naam>
+                    <mim:herkomst>herkomst</mim:herkomst>
+                    <mim:definitie>definitie</mim:definitie>
+                    <mim:herkomstDefinitie>herkomst definitie</mim:herkomstDefinitie>
+                    <mim:datumOpname>2022-01-01</mim:datumOpname>
+                    <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
+                    <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
+                    <mim:kardinaliteit>0..1</mim:kardinaliteit>
+                    <mim:kardinaliteitBron>1</mim:kardinaliteitBron>
+                    <mim:authentiek>false</mim:authentiek>
+                    <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
+                    <mim:aggregatietype>Gedeeld</mim:aggregatietype>
+                </mim:Bron>
                 <mim:Doel>
                     <mim:naam>naam</mim:naam>
                     <mim:herkomst>herkomst</mim:herkomst>
                     <mim:definitie>definitie</mim:definitie>
                     <mim:herkomstDefinitie>herkomstDefinitie</mim:herkomstDefinitie>
                     <mim:datumOpname>2022-01-01</mim:datumOpname>
-                    <mim:kardinaliteit>0..1</mim:kardinaliteit>
                     <mim:indicatieMaterieleHistorie>false</mim:indicatieMaterieleHistorie>
                     <mim:indicatieFormeleHistorie>false</mim:indicatieFormeleHistorie>
+                    <mim:kardinaliteit>0..1</mim:kardinaliteit>
+                    <mim:kardinaliteitBron>1</mim:kardinaliteitBron>
                     <mim:authentiek>false</mim:authentiek>
                     <mim:mogelijkGeenWaarde>false</mim:mogelijkGeenWaarde>
+                    <mim:aggregatietype>Gedeeld</mim:aggregatietype>
                 </mim:Doel>
             </mim:relatierollen>
         </mim:Relatiesoort>
